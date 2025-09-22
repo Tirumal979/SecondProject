@@ -1,0 +1,102 @@
+.app{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.usestate{
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.forms{
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.user{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.user-card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background-color: white;
+  color: black;
+}
+
+.user-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-card li {
+  margin: 4px ;
+  font-size: 14px;
+}
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.user-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease;
+  background-color: #fafafa;
+}
+
+
+.user-item:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+
+.user-item > h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+
+.user-item ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.user-item ul li {
+  margin: 4px 0;
+  color: #444;
+}
+
